@@ -10,7 +10,7 @@ LOCAL_VENDOR_MODULE := true
 LOCAL_VINTF_FRAGMENTS := power.xml
 
 LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libxml2 libbase libutils android.hardware.power-ndk_platform libbinder_ndk
+LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libxml2 libbase libhidlbase libhidltransport libutils android.hardware.power-ndk_platform libbinder_ndk  vendor.xiaomi.hardware.touchfeature@1.0
 LOCAL_HEADER_LIBRARIES += libutils_headers
 LOCAL_HEADER_LIBRARIES += libhardware_headers
 LOCAL_SRC_FILES := power-common.c metadata-parser.c utils.c list.c hint-data.c powerhintparser.c Power.cpp main.cpp
