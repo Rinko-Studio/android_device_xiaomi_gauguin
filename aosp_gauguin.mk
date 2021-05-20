@@ -23,3 +23,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=gauguin \
+    PRIVATE_BUILD_DESC="gauguin-user 11 RKQ1.200826.002 V12.0.5.0.RJSMIXM release-keys"
+
+BUILD_FINGERPRINT := Redmi/gauguin/gauguin:11/RKQ1.200826.002/V12.0.5.0.RJSMIXM:user/release-keys
