@@ -55,8 +55,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.disableADBLogs=1 \
     persist.vendor.ims.disableIMSLogs=1 \
 	persist.sys.fflag.override.settings_provider_model=false
-
-# Telephony
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.telephony.default_network=33,22
-
