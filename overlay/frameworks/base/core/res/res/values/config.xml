@@ -683,5 +683,5 @@
      <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/usb/fastcharge_mode</string>
 
      <!-- Whether device supports double tap to wake -->
-     <bool name="config_supportDoubleTapWake">true</bool>
+     <bool name="config_supportDoubleTapWake">false</bool>
 </resources>

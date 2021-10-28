@@ -37,7 +37,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     debug.sf.enable_hwc_vds=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
